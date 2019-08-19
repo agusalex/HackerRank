@@ -1,4 +1,4 @@
-
+package java;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,6 +14,6 @@ public class PairSumTest {
         list.add(4);
         list.add(7);
         list.add(8);
-        Assert.assertEquals(4,PairSum.pairSum(10,list));
+        Assert.assertEquals(4, PairSum.pairSum(10,list));
     }
 }
