@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class FraudulentActivityNotifications {
+public class FraudulentActivityNotificationsV2 {
 
     static int activityNotifications(int[] expenditure, int d) {
         int notifications = 0;
