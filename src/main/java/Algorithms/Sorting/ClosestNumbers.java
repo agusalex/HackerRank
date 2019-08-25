@@ -1,4 +1,4 @@
-/*
+package Algorithms.Sorting;/*
  * https://www.hackerrank.com/challenges/closest-numbers/problem
 */
 
@@ -14,7 +14,7 @@ import java.util.regex.*;
 
 public class ClosestNumbers
 {
-    static String closestNumbers(int[] arr) 
+    public static String closestNumbers(int[] arr)
     {
         Arrays.sort(arr);
         
