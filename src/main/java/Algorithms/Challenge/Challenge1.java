@@ -4,10 +4,10 @@ package Algorithms.Challenge;
 
 import java.util.*;
 
-public class Challenge {
+public class Challenge1 {
 
 
-    //2018
+
     public static int pairSum(int k, ArrayList<Integer> list){
         if(k<3){
             return 0;  //Numbers wont be repeated so 1+1 is ruled out
@@ -27,7 +27,7 @@ public class Challenge {
         return count;
 
     }
-    //2019
+
     public static int[] getAnimals(int[] animalWeights, int truckCapacity) {
         int[] sortedAnimals = animalWeights.clone();
         int[] result = new int[2];
@@ -45,7 +45,7 @@ public class Challenge {
         return new int[]{};
     }
 
-    //2019
+
     public static int findCompatibleSkinny(int[] sortedAnimals,int weight,int truckCapacity){
         for (int i = 0; weight+sortedAnimals[i]<=truckCapacity ; i++) {
             if(weight+sortedAnimals[i]==truckCapacity){
@@ -55,7 +55,7 @@ public class Challenge {
         return -1;
 
     }
-    //2019
+
     public static String isExpectedToPassExam(int N, double P, List<Integer> q, List<Double> pc, List<Double> pw) {
         Double expectedScore = 0.0;
         for (int i = 0; i <N ; i++) {
@@ -76,7 +76,7 @@ public class Challenge {
     }
 
 
-    //2019
+
     public static Double randomScorePredictedPerQuestion(Double answerAmount,Double c,Double w){
         double chancesOfWrong = (answerAmount-1)/answerAmount;
         double chancesOfRight = 1/answerAmount;
@@ -88,7 +88,7 @@ public class Challenge {
         return 0.0;
     }
 
-    //2019
+
     public static String isPossible(int x_start, int y_start, int x_end, int y_end) {
         if(findPath(x_start,y_start,x_end,y_end)){
             return "YES";
@@ -98,7 +98,7 @@ public class Challenge {
         }
 
     }
-    //2019
+
     public static boolean findPath(int x_start, int y_start, int x_end, int y_end) {
         //BaseCases
         if((x_start==x_end)&&(y_start)==(y_end)){ //Reached destination
@@ -113,7 +113,7 @@ public class Challenge {
     }
 
 
-    //2019
+
     public static List<Integer> kinderSquare(List<Integer> arr) {
         List<Integer> result = new ArrayList<>();
 

@@ -15,8 +15,10 @@ import java.util.regex.*;
 
 public class BonAppétit
 {
-	static void bonAppetit(List<Integer> bill, int k, int b)
+	public static int bonAppetit(List<Integer> bill, int k, int b)
 	{
+	    int[] ar = {};
+	    int n=0;
 		int toplam=0;
         for(int i=0;i<n;i++)
         {
@@ -37,5 +39,6 @@ public class BonAppétit
         {
             System.out.println("Bon Appetit");
         }
+        return 0;
     }
 }

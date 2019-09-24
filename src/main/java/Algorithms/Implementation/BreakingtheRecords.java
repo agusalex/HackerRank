@@ -14,7 +14,7 @@ import java.util.regex.*;
 
 public class BreakingtheRecords 
 {
-	static int[] breakingRecords(int[] scores) 
+	public static int[] breakingRecords(int[] scores)
 	{
 		int [] highest=new int[scores.length];
 		int [] lowest=new int[scores.length];

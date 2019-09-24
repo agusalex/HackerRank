@@ -15,7 +15,7 @@ import java.util.regex.*;
 
 public class AppleandOrange 
 {
-	static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) 
+	static void countApplesAndOranges(int s1, int s, int t, int a, int b, int[] apples, int[] oranges)
 	{
 		int count = 0;
 		for(int i=0;i<apples.length;i++)

@@ -1,7 +1,11 @@
 package Implementation;
 
+import Algorithms.Implementation.BonAppétit.*;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static Algorithms.Implementation.BonAppétit.bonAppetit;
 
@@ -12,6 +16,6 @@ public class BonAppétitTest
     {
         List<Integer> list = new ArrayList<>();
         list.add(3);list.add(10);list.add(2);list.add(9);
-        Assert.assertEquals(5,bonAppetit(list,1,12));
+        Assert.assertEquals(5, bonAppetit(list,1,12));
     }
 }

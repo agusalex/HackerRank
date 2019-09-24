@@ -1,15 +1,15 @@
 package Challenge;
 
-import Algorithms.Challenge.Challenge;
+import Algorithms.Challenge.Challenge1;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChallengeTest {
+public class Challenge1Test {
 
-    //2018
+
     @Test
     public void pairSum(){
         ArrayList<Integer> list = new ArrayList<>();
@@ -18,17 +18,17 @@ public class ChallengeTest {
         list.add(4);
         list.add(7);
         list.add(8);
-        Assert.assertEquals(4, Challenge.pairSum(10,list));
+        Assert.assertEquals(4, Challenge1.pairSum(10,list));
     }
 
-    //2019
+
     @Test
     public void getAnimals(){
         int[] animals = new int[]{1,5,2,7,9,3};
-        Assert.assertArrayEquals(new int[]{1,9}, Challenge.getAnimals(animals,10));
+        Assert.assertArrayEquals(new int[]{1,9}, Challenge1.getAnimals(animals,10));
 
     }
-    //2019
+
     @Test
     public void multipleChoicePanicNotPass(){
         int n=3;
@@ -45,10 +45,10 @@ public class ChallengeTest {
         pw.add(1.0);
         pw.add(1.0);
 
-        Assert.assertEquals("NO", Challenge.isExpectedToPassExam(n,2.0,q,pc,pw));
+        Assert.assertEquals("NO", Challenge1.isExpectedToPassExam(n,2.0,q,pc,pw));
 
     }
-    //2019
+
     @Test
     public void multipleChoicePanicPass(){
         int n=2;
@@ -62,10 +62,10 @@ public class ChallengeTest {
         pw.add(1.0);
         pw.add(1.0);
 
-        Assert.assertEquals("YES", Challenge.isExpectedToPassExam(n,2.0,q,pc,pw));
+        Assert.assertEquals("YES", Challenge1.isExpectedToPassExam(n,2.0,q,pc,pw));
 
     }
-    //2019
+
    @Test
     public void kinderSquare(){
         ArrayList<Integer> arr = new ArrayList<>();
@@ -73,17 +73,17 @@ public class ChallengeTest {
         arr.add(3);
         arr.add(1);
         arr.add(4);
-        System.err.println(Challenge.kinderSquare(arr));
+        System.err.println(Challenge1.kinderSquare(arr));
     }
-    //2019
+
     @Test
     public void minefield1(){
-        Assert.assertEquals("YES", Challenge.isPossible(1,1,2,5));
+        Assert.assertEquals("YES", Challenge1.isPossible(1,1,2,5));
 
     }
-    //2019
+
     @Test
     public void minefield2(){
-        Assert.assertEquals("NO", Challenge.isPossible(1,1,6,3));
+        Assert.assertEquals("NO", Challenge1.isPossible(1,1,6,3));
     }
 }
